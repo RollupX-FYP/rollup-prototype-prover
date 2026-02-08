@@ -5,7 +5,7 @@ pragma experimental ABIEncoderV2;
 
 import "../rollup.sol";
 
-contract RollupWithdrawalUnitTest is Rollu {
+contract RollupWithdrawalUnitTest is Rollup {
     function setBalanceToWithdraw(
         address _owner,
         uint16 _token,
