@@ -24,7 +24,7 @@ async fn main() {
         .update_non_unique_tx_filters_for_priority_ops()
         .await;
 
-    println!("Finish updating non unique tx_filters");
+    println!("Finish updating non unique tx_filter");
     loop {
         let mut transaction = storage.start_transaction().await.unwrap();
         if last_seq_no_executed_txs < max_seq_no.0 as i64 {
