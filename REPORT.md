@@ -255,7 +255,7 @@ Aggregation amortises L1 verification gas costs: instead of verifying N separate
 | **Rescue Hash** | ZK-friendly algebraic hash function used for Merkle tree hashing and transcript generation inside circuits. |
 | **Poseidon Hash** | Alternative ZK-friendly hash, used alongside Rescue. |
 | **Keccak-256** | Used for public data commitment hashing (outside circuits) and Ethereum compatibility. |
-| **Sparse Merkle Tree** | Stores all account states. Depth is 32, supporting up to 2³² accounts. The hasher is `BabyRescueHasher`. |
+| **Sparse Merkle Tree** | Stores all account states. Depth is 32, supporting up to 2^32 (approximately 4.3 billion) accounts. The hasher is `BabyRescueHasher`. |
 
 ### 4.6 Communication Protocol
 
